@@ -97,7 +97,7 @@ results = run_experiments_on_mask_ratios(
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/RohitVarmaSixtyFive/BMC-GC.git
 cd BMC-GC
 pip install numpy scipy pandas matplotlib tqdm
 ```
@@ -116,9 +116,8 @@ Results are automatically saved with timestamps and summary statistics.
 ## Mathematical Background
 
 The methods are based on the theoretical framework from:
+- "Bayesian Matrix Completion under Geometric Constraints" by Rohit Varma, Santosh Nannuru et al.
 - "Exact Reconstruction of Euclidean Distance Geometry Problem Using Low-rank Matrix Completion" by Abiy Tasissa, Rongjie Lai et al.
-- Bayesian matrix completion with Normal-Wishart priors
-- Augmented Lagrangian methods for constrained optimization
 
 ## File Structure
 
